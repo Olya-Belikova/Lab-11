@@ -1,0 +1,162 @@
+using System;
+
+namespace lab11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* №1
+             int a1, a2, b1, b2;
+             Console.Write("A = ");
+             int a = Convert.ToInt32(Console.ReadLine());
+             Console.Write("B = ");
+             int b = Convert.ToInt32(Console.ReadLine());
+             if (a > b)
+             {
+                 a1 = a + a;
+                 b1 = b + a;
+                 Console.Write("A = " + a1 + "; B = " + b1);
+             }
+             else if (b > a)
+             {
+                 a2 = a + b;
+                 b2 = b + b;
+                 Console.Write("A = " + a2 + "; B = " + b2);
+             }
+             else if (b == a)
+             {
+                 a = 0;
+                 b = 0;
+                 Console.Write("A = " + a + "; B = " + b);
+             }
+            */
+
+            /* №2
+            int x, y, z;
+            Console.Write("A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("B = ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("C = ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            if (a <= b && a <= c)
+            {
+                x = b + c;
+                Console.Write(x);
+            }
+            else if (b <= a && b <= c)
+            {
+                x = a + c;
+                Console.Write(x);
+            }
+            else if(c <= a && c <= b)
+            {
+                x = a + b;
+                Console.Write(x);
+            }
+            */
+
+            /* №3
+            Console.Write("A = ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("B = ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Console.Write("C = ");
+            double c = Convert.ToInt32(Console.ReadLine());
+            double ab, ac;
+            ab = Math.Abs(a - b);
+            ac = Math.Abs(a - c);
+            if (ab < ac)
+            {
+                Console.Write("В ближе к А; В = " + b + "; AB = " + ab);
+            }
+            else if(ab > ac)
+            {
+                Console.Write("C ближе к А; C = " + c + "; AC = " + ac);
+            }
+            else
+            {
+                Console.Write("B и C равноудалены от А");
+            }
+            */
+
+            /* №
+            Console.Write("X = ");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Y = ");
+            double y = Convert.ToDouble(Console.ReadLine());
+            if (x > 0 && y > 0)
+            {
+                Console.Write("Первая четверть");
+            }
+            else if (x < 0 && y > 0)
+            {
+                Console.Write("Вторая четверть");
+            }
+            else if (x < 0 && y < 0)
+            {
+                Console.Write("Третья четверть");
+            }
+            else
+            {
+                Console.Write("Четвертая четверть");
+            }
+            */
+
+            /* №5
+            Console.Write("A = ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            if (a == 0)
+            {
+                Console.Write("Нулевое");
+            }
+            else
+            {
+                if (a > 0)
+                {
+                    Console.Write("Положительное, ");
+                }
+                else
+                {
+                    Console.Write("Отрицательное, ");
+                }
+                if ((a%2) == 0)
+                {
+                    Console.Write("четное");
+                }
+                else
+                {
+                    Console.Write("нечетное");
+                }
+            }
+            */
+
+            /* №6
+            Console.Write("A = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a%2 == 0)
+            {
+                Console.Write("Четное, ");
+            }
+            else
+            {
+                Console.Write("Нечетное, ");
+            }
+            if (a / 100 > 0 && a / 100 < 10)
+            {
+                Console.Write("Трехзначное");
+            }
+            else if (a / 10 > 0 && a / 10 < 10)
+            {
+                Console.Write("Двухзначное");
+            }
+            else if (a / 10 == 0)
+            {
+                Console.Write("Однозначное");
+            }
+            */
+
+        }
+    }
+}
